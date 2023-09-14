@@ -1,0 +1,260 @@
+input {
+    border: none;
+    outline-style: none;
+}
+
+.change-blc {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.shadow-bg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 100vh;
+    z-index: 8;
+    background: rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+.change {
+    position: absolute;
+    z-index: 30;
+    width: 60%;
+    height: 90vh;
+    margin-left: 20%;
+    margin-top: 5vh;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.change-main {
+    padding: 5px;
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+}
+
+.change-btn {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.exit-button {
+    padding: 10px 20px;
+}
+
+.save-button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #262626;
+    color: #ffffff;
+    border-radius: 25px;
+    border: #262626 2px solid;
+    transition: all ease-in-out 0,3s;
+}
+
+.save-button:hover {
+    background-color: #ffffff;
+    color: #262626;
+}
+
+.pro-item {
+    margin-top: 100px;
+}
+
+.pro-part {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pro-part:hover a {
+    color: #2b8ae8 ;
+}
+
+.account-blc {
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color:  #3a3b39;
+}
+
+.edit-btn {
+    padding: 10px 15px; 
+    border: 1px #262626 solid;
+    border-radius: 30px;
+    background-color: #262626;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #fff;
+    color: #262626;
+}
+
+.pro-dis {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+    border-radius: 30px;
+    padding: 30px;
+    color: #605e5c; 
+    background-color: #ffffff;
+}
+
+.pro-dis h3 {
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.pro-dis span {
+    display: block;
+    margin-bottom: 32px;
+}
+
+.pro-dis > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-block {
+    width: 50%;
+    flex-direction: column;
+}
+
+.name-pro {
+    width: 90%;
+    color: #323130;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: #605e5c 1px solid;
+}
+
+.img-block {
+    width: 30%;
+    overflow: hidden;
+}
+
+.img-block a {
+    color: #262626;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.img-block a:hover {
+    color: #2b8ae8;
+}
+
+.img-block label {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.img-block img {
+    width: 120px;
+}
+
+.save-pro {
+    width: 100%;
+    font-size: 20px;
+}
+
+.history-pro {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.history-pro h3 {
+    color: #605e5c;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.setting-block {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.noti-pro,
+.acc-set {
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+    color: #3a3b39;
+}
+
+.noti-pro h3,
+.acc-set h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.noti-pro > div {
+    padding: 120x 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lf-block {
+    width: 90%;
+}
+
+.lf-block span {
+    font-size: 14px;
+    color: #605e5c;
+}
+
+.acc-set .set-item {
+    padding: 12px 16px;
+}
+
+.set-choice a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.set-choice {
+    margin-bottom: 20px;
+}
+
+@media(max-width:1199.98px) {
+
+    .change {
+        width: 90vw;
+        height: 90vh;
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+}
+
+/* Extra small devices (portrait phone, less than 576px) */
+@media (max-width:575.98px) {
+
+    .img-block {
+        display: none;
+    }
+}
